@@ -13,6 +13,7 @@ object Dependencies {
     "com.typesafe.akka"       %% "akka-testkit"               % Version.akkaVer,
     "com.typesafe.akka"       %% "akka-stream"                % Version.akkaVer,
     "com.typesafe.akka"       %% "akka-stream-testkit"        % Version.akkaVer,
+    "com.lightbend.akka" %% "akka-stream-alpakka-file" % "0.5",
     "org.scalatest"           %% "scalatest"                  % Version.scalaTestVer % "test"
   )
 }
